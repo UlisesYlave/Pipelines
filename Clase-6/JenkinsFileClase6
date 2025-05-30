@@ -1,0 +1,13 @@
+pipeline{
+    agent any
+    environment {
+        INSTAGRAM_BRAULIO="@braulio_draw"
+    }
+    stages{
+        stage("Saludo 1"){
+            steps{
+                echo "Hola desde Saludo 1"
+            }
+        }
+    }
+}
